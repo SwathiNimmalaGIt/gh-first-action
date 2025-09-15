@@ -1,0 +1,10 @@
+name: first workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+  runs-on: unbuntu-latest
+  steps:
+  -name: print Om
+   run: echo "Hello world"
+  -name: print goodbye
+   run: echo "Done-bye!"
